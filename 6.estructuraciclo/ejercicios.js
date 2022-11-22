@@ -12,20 +12,4 @@ function palindromeChecker(str) {
   console.log(palindromeChecker("oso")); // es palindromo
   console.log(palindromeChecker("hola")); // no es palindromo
   console.log(palindromeChecker("omo")); // es palindromo
-
 //hacer un programa que me muestre los numeros de la serie de fibonacci
-#include<iostream>
-using namespace std;
-int main()
-{
-    int i,a = 0,b = 1,c,n;
-    cout<< "Ingresa el valor de n: ";
-    cin>> n;
-    for (i = 1; i <= n; i++){
-        cout<< a <<" ";
-        c = a + b;
-        a = b;
-        b = c;
-    }
-    return 0;
-}
